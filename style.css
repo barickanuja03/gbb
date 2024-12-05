@@ -1,0 +1,318 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: white;
+  color: black;
+  width: 100%;
+  font-size: 10px;
+}
+
+.hero-section {
+  background: black;
+}
+.hero-section .content {
+  background-image: url("https://tse1.mm.bing.net/th?id=OIP.yLf7kQVaLpxqCZX1VRHw-wHaEK&pid=Api&P=0&h=180");
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 80vh;
+  margin: 0;
+  font-family: sans-serif;
+  opacity: 0.8;
+}
+.hero-section .content .bg-img {
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+  color: white;
+  opacity: 1;
+}
+.hero-section .content .bg-img h1 {
+  font-size: 3rem;
+  margin-bottom: 10px;
+  font-weight: 700;
+}
+.hero-section .content .bg-img h1 span {
+  color: rgb(255, 165, 0);
+}
+.hero-section .content .bg-img p {
+  font-size: 1.2rem;
+  margin: 20px auto;
+}
+.hero-section .content .bg-img .button1 {
+  gap: 20px;
+  padding: 10px 20px;
+  font-size: 1rem;
+  outline: none;
+  color: rgb(255, 165, 0);
+}
+.hero-section .content .bg-img .button1 :hover {
+  background-color: rgb(255, 165, 0);
+  color: white;
+}
+.hero-section .content .bg-img .button2 {
+  padding: 10px 20px;
+  font-size: 1rem;
+  outline: none;
+  background: rgb(255, 165, 0);
+}
+
+.why-we-do {
+  width: 100%;
+}
+.why-we-do .heading {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 20px;
+}
+.why-we-do .heading h1 {
+  font-size: 2.4rem;
+  font-weight: 600;
+  margin-bottom: 8px;
+  font-style: normal;
+  text-transform: capitalize;
+}
+.why-we-do .heading h1 span {
+  color: rgb(255, 165, 0);
+}
+.why-we-do .heading p {
+  font-size: 1rem;
+  line-height: 1.5;
+}
+.why-we-do img {
+  width: 100%;
+  aspect-ratio: 16/9;
+}
+.why-we-do .list {
+  width: 100%;
+  aspect-ratio: 16/9;
+  margin-top: 30px;
+}
+.why-we-do .list .list-item .title {
+  font-size: 0.9rem;
+  text-transform: capitalize;
+  font-weight: 700;
+}
+.why-we-do .list .list-item p {
+  font-size: 0.8rem;
+}
+
+.drop-ocean {
+  background-color: rgb(245, 245, 238);
+  width: 100%;
+}
+.drop-ocean .heading {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 20px;
+}
+.drop-ocean .heading h1 {
+  font-size: 2.4rem;
+  margin-bottom: 8px;
+  font-style: normal;
+  text-transform: capitalize;
+  font-weight: 600;
+}
+.drop-ocean .heading h1 span {
+  color: rgb(255, 165, 0);
+}
+.drop-ocean .heading p {
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+.vision {
+  width: 100%;
+  background-color: rgb(245, 245, 238);
+}
+.vision .heading {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 20px;
+}
+.vision .heading h1 {
+  font-size: 2.4rem;
+  margin-bottom: 8px;
+  font-style: normal;
+  text-transform: capitalize;
+  font-weight: 600;
+}
+.vision .heading h1 span {
+  color: rgb(255, 165, 0);
+}
+.vision .heading p {
+  font-size: 1rem;
+  line-height: 1.5;
+}
+.vision .timeline-section {
+  padding: 40px 20px;
+}
+.vision .timeline-section .timeline {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  position: relative;
+  margin: 0 auto;
+  max-width: 600px;
+}
+.vision .timeline-section .timeline .timeline-item {
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 30px;
+  position: relative;
+}
+.vision .timeline-section .timeline .timeline-item .circle {
+  width: 12px;
+  height: 12px;
+  background-color: #f9a825;
+  border-radius: 50%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  margin-top: 8px;
+  border: 2px solid #f9a825;
+}
+.vision .timeline-section .timeline .timeline-item .content {
+  margin-left: 40px;
+}
+.vision .timeline-section .timeline .timeline-item .content h3 {
+  font-size: 1.5rem;
+  margin: 0;
+  color: rgb(255, 165, 0);
+}
+.vision .timeline-section .timeline .timeline-item .content p {
+  margin: 5px 0 0;
+  font-size: 1rem;
+}
+.vision .timeline-section :before {
+  content: "";
+  position: absolute;
+  left: 6px;
+  top: 0;
+  width: 2px;
+  height: 100%;
+  background-color: rgb(255, 165, 0);
+}
+
+.journey {
+  background: black;
+}
+.journey .content {
+  background-image: url("https://tse1.mm.bing.net/th?id=OIP.yLf7kQVaLpxqCZX1VRHw-wHaEK&pid=Api&P=0&h=180");
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 40vh;
+  margin: 0;
+  font-family: sans-serif;
+  opacity: 0.8;
+}
+.journey .content .bg-img {
+  padding: 15px;
+  border-radius: 10px;
+  text-align: center;
+  color: white;
+  opacity: 1;
+}
+.journey .content .bg-img h1 {
+  font-size: 2rem;
+  margin-bottom: 10px;
+  font-weight: 700;
+}
+.journey .content .bg-img h1 span {
+  color: rgb(255, 165, 0);
+}
+.journey .content .bg-img p {
+  font-size: 1rem;
+  margin: 20px auto;
+}
+.journey .content .bg-img .button1 {
+  gap: 20px;
+  padding: 10px 20px;
+  font-size: 1rem;
+  outline: none;
+  color: rgb(255, 165, 0);
+}
+.journey .content .bg-img .button1 :hover {
+  background-color: rgb(255, 165, 0);
+  color: white;
+}
+.journey .content .bg-img .button2 {
+  padding: 10px 20px;
+  font-size: 1rem;
+  outline: none;
+  background: rgb(255, 165, 0);
+}
+
+.stories-hope {
+  width: 100%;
+  background-color: rgb(245, 245, 238);
+}
+.stories-hope .heading {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 20px;
+}
+.stories-hope .heading h1 {
+  font-size: 2.4rem;
+  font-weight: 600;
+  margin-bottom: 8px;
+  font-style: normal;
+  text-transform: capitalize;
+}
+.stories-hope .heading h1 span {
+  color: rgb(255, 165, 0);
+}
+.stories-hope .heading p {
+  font-size: 1rem;
+  line-height: 1.5;
+}
+.stories-hope .swip {
+  position: relative;
+  height: 100%;
+  background: #eee;
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  color: #000;
+  margin: 0;
+  padding: 0;
+}
+.stories-hope swiper-container {
+  width: 100%;
+  height: 100%;
+}
+.stories-hope swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.stories-hope swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,334 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   }
+   body{
+       background-color: white;
+       color: black;
+       width: 100%;
+       font-size: 10px;
+   }
+    $secondary-color:rgb(255, 165, 0);
+   .hero-section{
+    background: black;
+   .content{
+    background-image: url("https://tse1.mm.bing.net/th?id=OIP.yLf7kQVaLpxqCZX1VRHw-wHaEK&pid=Api&P=0&h=180");
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 80vh;
+    margin: 0;
+    font-family: sans-serif;
+    opacity: 0.8;
+    .bg-img
+    {
+        padding: 20px;
+        border-radius: 10px;
+        text-align: center;
+        color: white;
+        opacity: 1;
+        h1 {
+            font-size: 3rem;
+            margin-bottom: 10px;
+            font-weight: 700;
+            span{
+                color: $secondary-color;
+            }
+          }
+          p {
+            font-size: 1.2rem;
+            margin: 20px auto;
+          }
+          .button1{
+            gap: 20px;
+            padding: 10px 20px;
+            font-size: 1rem;
+            outline: none;
+            color: $secondary-color;
+            :hover{
+                background-color: $secondary-color;
+                color: white;
+            }
+          }
+          .button2{
+            padding: 10px 20px;
+            font-size: 1rem;
+            outline: none;
+            background: $secondary-color;
+            // color: $secondary-color;
+          }
+    }
+   }
+}
+
+
+/////////////////////////////// Why we do//////////////////////
+.why-we-do{
+    width: 100%;
+
+    .heading{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        padding: 20px;
+        h1 {
+            font-size: 2.4rem;
+            font-weight: 600;
+            margin-bottom: 8px;
+            font-style: normal;
+            text-transform: capitalize;
+            span{
+                color: $secondary-color;
+            }
+          }
+          
+          p {
+            font-size: 1rem;
+            line-height: 1.5;
+          }
+    }
+    img{
+        width: 100%;
+        aspect-ratio: 16/9;
+    }
+.list{
+    width:100%;
+    aspect-ratio: 16/9;
+    margin-top: 30px;
+    .list-item{
+        .title{
+            font-size: 0.9rem;
+            text-transform: capitalize;
+            font-weight: 700;
+        }
+        p{
+            font-size: 0.8rem;
+        }
+    }
+}
+}
+/////////////////Drop in the ocean/////////////
+.drop-ocean{ 
+    background-color: rgb(245, 245, 238);
+    width: 100%;
+    .heading{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        padding: 20px;
+        h1 {
+            font-size: 2.4rem;
+            margin-bottom: 8px;
+            font-style: normal;
+            text-transform: capitalize;
+            font-weight: 600;
+            span{
+                color: $secondary-color;
+            }
+          }
+          
+          p {
+            font-size: 1rem;
+            line-height: 1.5;
+          }
+    }
+}
+
+/////////////////////Vision of the future//////////
+.vision{
+width: 100%;
+background-color: rgb(245, 245, 238);
+.heading{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+    h1 {
+        font-size: 2.4rem;
+        margin-bottom: 8px;
+        font-style: normal;
+        text-transform: capitalize;
+        font-weight: 600;
+        span{
+            color: $secondary-color;
+        }
+      }
+      p {
+        font-size: 1rem;
+        line-height: 1.5;
+      }
+}
+.timeline-section {
+    padding: 40px 20px;
+    .timeline {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        position: relative;
+        margin: 0 auto;
+        max-width: 600px;
+        .timeline-item {
+            display: flex;
+            align-items: flex-start;
+            margin-bottom: 30px;
+            position: relative;
+            .circle {
+                width: 12px;
+                height: 12px;
+                background-color: #f9a825;
+                border-radius: 50%;
+                position: absolute;
+                left: 0;
+                top: 0;
+                margin-top: 8px;
+                border: 2px solid #f9a825;
+              }
+              .content {
+                margin-left: 40px;
+                h3 {
+                    font-size: 1.5rem;
+                    margin: 0;
+                    color: $secondary-color;
+                  }
+                  p {
+                    margin: 5px 0 0;
+                    font-size: 1rem;
+                  }
+              }
+          }
+
+      }
+      :before {
+        content: '';
+        position: absolute;
+        left: 6px;
+        top: 0;
+        width: 2px;
+        height: 100%;
+        background-color: $secondary-color;
+      }
+  }
+}
+///////////Be a part of the journey//////////
+.journey{
+    background: black;
+   .content{
+    background-image: url("https://tse1.mm.bing.net/th?id=OIP.yLf7kQVaLpxqCZX1VRHw-wHaEK&pid=Api&P=0&h=180");
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 40vh;
+    margin: 0;
+    font-family: sans-serif;
+    opacity: 0.8;
+    .bg-img
+    {
+        padding: 15px;
+        border-radius: 10px;
+        text-align: center;
+        color: white;
+        opacity: 1;
+        h1 {
+            font-size: 2rem;
+            margin-bottom: 10px;
+            font-weight: 700;
+            span{
+                color: $secondary-color;
+            }
+          }
+          p {
+            font-size: 1rem;
+            margin: 20px auto;
+          }
+          .button1{
+            gap: 20px;
+            padding: 10px 20px;
+            font-size: 1rem;
+            outline: none;
+            color: $secondary-color;
+            :hover{
+                background-color: $secondary-color;
+                color: white;
+            }
+          }
+          .button2{
+            padding: 10px 20px;
+            font-size: 1rem;
+            outline: none;
+            background: $secondary-color;
+            // color: $secondary-color;
+          }
+    }
+   }
+}
+
+///////////Stories of hope/////////////////
+.stories-hope{
+    width: 100%;
+    background-color: rgb(245, 245, 238);
+    .heading{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        padding: 20px;
+        h1 {
+            font-size: 2.4rem;
+            font-weight: 600;
+            margin-bottom: 8px;
+            font-style: normal;
+            text-transform: capitalize;
+            span{
+                color: $secondary-color;
+            }
+          }
+          
+          p {
+            font-size: 1rem;
+            line-height: 1.5;
+          }
+    }
+    .swip
+    {
+        position: relative;
+        height: 100%;
+        background: #eee;
+        font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+        font-size: 14px;
+        color: #000;
+        margin: 0;
+        padding: 0;
+    }
+    swiper-container {
+        width: 100%;
+        height: 100%;
+      }
+  
+      swiper-slide {
+        text-align: center;
+        font-size: 18px;
+        background: #fff;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+  
+      swiper-slide img {
+        display: block;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+      }
+}
